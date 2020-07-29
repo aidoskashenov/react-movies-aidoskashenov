@@ -28,6 +28,14 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## `yarn dep`
+
+Creates an SVG **and** interactive HTML dependency graph for visualizing your project.
+
+The HTML will automatically open up with `browser-sync`. You can click on the different parts of the graph and look at the code. 👏🏽
+
+You can choose to include the SVG as part of your `commit` - maybe just for every '`master`' release? 🤷🏽‍♂️
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
