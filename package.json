@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "dep": "depcruise --max-depth 2 --exclude '^(node_modules|forks|__tests__)' --output-type dot ./ | dot -T svg > dependencygraph.svg"
+    "dep": "depcruise --max-depth 2 --exclude '^(node_modules|forks|__tests__)' --output-type dot src | dot -T svg > dependencygraph.svg && depcruise --max-depth 2 --exclude '^(node_modules|forks|__tests__)' --output-type dot src | dot -T svg | depcruise-wrap-stream-in-html > dependency-graph.html && browser-sync start --server --files './index.html'"
   },
   "eslintConfig": {
     "env": {
@@ -66,6 +66,7 @@
     ]
   },
   "devDependencies": {
+    "browser-sync": "^2.26.12",
     "dependency-cruiser": "^9.9.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
