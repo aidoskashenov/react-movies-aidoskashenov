@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "dep": "depcruise --max-depth 2 --exclude '^(node_modules|forks|__tests__)' --output-type dot packages/react/src | dot -T svg > dependencygraph.svg"
+    "dep": "depcruise --max-depth 2 --exclude '^(node_modules|forks|__tests__)' --output-type dot ./ | dot -T svg > dependencygraph.svg"
   },
   "eslintConfig": {
     "env": {
