@@ -41,3 +41,7 @@ You can choose to include the SVG as part of your `commit` - maybe just for ever
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+---
+
+You may want to [install the Victor Mono font.](https://rubjo.github.io/victor-mono/)
