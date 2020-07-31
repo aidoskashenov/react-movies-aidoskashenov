@@ -1,4 +1,4 @@
-# Claim React Student Starter
+# Claim Student React Starter Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,8 +28,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## `yarn dep`
+
+Creates an SVG **and** interactive HTML dependency graph for visualizing your project.
+
+The HTML will automatically open up with `browser-sync`. You can click on the different parts of the graph and look at the code. 👏🏽
+
+You can choose to include the SVG as part of your `commit` - maybe just for every '`master`' release? 🤷🏽‍♂️
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+---
+
+You may want to [install the Victor Mono font.](https://rubjo.github.io/victor-mono/)
