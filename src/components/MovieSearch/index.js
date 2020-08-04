@@ -5,13 +5,15 @@ import api from "api";
 
 export const MovieSearch = () => {
   const [movies, setMovies] = useState([]);
-  const searchHandler = async (event) => { setMovies(await api.index(event.target.elements[0].value))}
-
+  const searchHandler = async (event) => {
+    const { results } = await api.index(event.target.elements[0].value)
+    setMovies(results);
+  };
 
   return (
     <main>
       <Cards movies={movies} />
-      <Search handler={searchHandler}/>
+      <Search handler={searchHandler} />
     </main>
   );
 };

@@ -1,5 +1,6 @@
 import dotenv from 'dotenv'
 
+dotenv.config()
 
 export default {
 // query will be assigned the value of the whatever was submmited in
