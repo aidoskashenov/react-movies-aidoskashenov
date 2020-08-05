@@ -12,8 +12,9 @@ export const MovieSearch = () => {
 
   return (
     <main>
-      <Cards movies={movies} />
       <Search handler={searchHandler} />
+      <Cards movies={movies} />
+
     </main>
   );
 };
