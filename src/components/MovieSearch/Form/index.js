@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styles from "./Form.css"
 
 export const Form = ({ handler }) => {
   const handleSubmit = (event) => {
@@ -9,7 +10,7 @@ export const Form = ({ handler }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="search" />
+      <input type="search" className="input"/>
       <button className="button">click</button>
     </form>
   );
